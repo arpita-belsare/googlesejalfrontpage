@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google layout </title>
+    <!-- goggle fonmt, materiL ICON , fa-fa icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> //  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            /* background-image:url("./414587.jpg"); */
+            background-image:url("./414605.jpg ");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }        
+        .navbar{
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: end;
+            list-style-type: none;
+            color:white;
+
+        }
+        .one:hover{
+                   box-shadow: 5px 7px 90px 10px rgb(59, 77, 85);
+        }
+        #e-mail{
+            margin:2px;
+            padding:2px;
+        }
+        #image{
+            margin:2px;
+            padding:2px;
+        }
+        .material-icons{
+            margin: 2px;
+        }
+        .main_body{
+            margin: 10px;
+            height: 700px;
+            /* border:1px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0%;
+        }
+.navbar:hover{
+    text-decoration: underline;
+}
+.main{
+    width: 50%;
+    height: 250px;
+    border:1px solid rgb(71, 78, 114);
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding: 0%;
+margin-top:5% ;
+} 
+h1{
+font-size: 110px;
+color:white;
+margin: 2%;
+margin-left: 20%;
+margin-top: 0%;
+}
+.search{
+width: 68%;
+margin: 0%;
+border:1px solid gainsboro;
+padding:1%;
+/* height: 20px; */
+margin-left: 10%;
+border-radius:80px ;
+
+}
+.place{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    outline:none;
+    color:white;
+}
+#sea{
+    color:white;
+    font-size: 15px;
+    margin:2px;
+}
+ 
+.app{
+    margin:0;
+    width: 50%;
+    height: 400px;
+ margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,110px);
+    grid-gap:6%;
+padding-left: 10%;
+box-sizing: border-box;
+} 
+.one{
+   
+    margin:2%;
+    margin-top: 3%;
+    padding:10%;
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+
+}
+.ico{
+    border:15px solid rgb(255, 249, 249);
+    border-radius: 80px;
+    background-color: white;
+}
+h3{
+color:white;
+font-weight: 100;
+font: size 16px;
+}
+#youtube{
+    font-size: 32px;
+    color:red;
+}
+#wp{
+    font-size: 32px;
+    color:green;
+}
+#git{
+    color:black;
+    font-size: 32px;
+}
+#twit{
+    color:skyblue;
+    font-size: 32px;
+}
+#qu{
+    color:rgb(100, 11, 11);
+    font-size: 32px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+    <li id="e-mail">g-mail</li>
+    <li id="image">images</li>
+    <i class="material-icons">apps</i>
+    </li>
+    <li>   <i class="material-icons">account_circle</i>
+    </li>
+    </nav>
+ <div class="main_body">
+  <div class="main">
+    <h1>Google</h1>
+    <div class="search">
+        <i class="fa fa-search" aria-hidden="true" id="sea"></i>
+        <input type="text" placeholder="search hear"class="place" >
+        <i class="fa fa-microphone" aria-hidden="true" id="sea"></i>
+        <i class="fa fa-camera" aria-hidden="true" id="sea"></i>
+    </div>
+  </div>
+  <br><br>
+  <div class="app">
+    <div class="one">
+        <div class="ico">
+            <i class="fab fa-whatsapp" id="wp"></i>
+        </div>
+        <h3>What's app
+        </h3>
+    </div>
+    <div class="one">
+        <div class="ico">
+            <i class="fab fa-twitter"id=twit></i>
+        </div>
+        <h3>Twiter</h3>
+    </div>
+    <div class="one">
+        <div class="ico">
+            <i class="fab fa-youtube" id="youtube"></i>
+        </div><br>
+        <h3>You-tube</h3>
+    </div>
+    <div class="one">
+        <div class="ico">
+            <i class="fab fa-github"id="git"></i>
+        </div>
+        <h3>Github </h3>
+    </div>
+    <div class="one">
+        <div class="ico"> <i class="fab fa-quora"id="qu"></i>
+            
+        </div>
+        <h3>Quara</h3>
+    </div>
+    <div class="one">
+        <div class="ico">
+            <i class="fab fa-amazon"id="git"></i>
+        </div>
+        <h3>Amazon</h3>
+    </div>
+
+
+
+    </div>
+  </div>
+ </div>
+</body>
+</html>
